@@ -1,0 +1,7 @@
+.blue-block {
+    min-height: 400px;
+    width: 600px; /* Фиксированная ширина блока */
+    color: white;
+    background-color: #1a12fd;
+    margin: auto;
+}

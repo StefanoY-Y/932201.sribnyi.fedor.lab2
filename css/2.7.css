@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.static-div {
+    width: 150px;
+    height: 125px;
+    color: white;
+    background-color: #c009ff;
+    padding: 10px;
+    margin: 10px;
+}
+
+.relative-div-1 {
+    width: 150px;
+    height: 100px;
+    color: white;
+    position: relative;
+    background-color: #d30000;
+    padding: 10px;
+    left: 10px;
+    top: -10px;
+}
+
+.relative-div-2 {
+    left: 38px;
+    width: 150px;
+    color: white;
+    height: 100px;
+    position: relative;
+    background-color: #e1b353;
+    padding: 10px;
+    top: -50px;
+}
+
+.relative-div-4 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: #00fff8;
+    left:-200px;
+    top: 100px;
+}
+
+.relative-div-5 {
+   background-color: #ffe4c4;
+    float: left;
+    width: 200px;
+}
+
+.large-relative-div {
+    width: 600px;
+    position: relative;
+    color: white;
+    background-color: #ff5e5e;
+    padding: 20px;
+    height: 350px; /* Установите длину по вашему усмотрению */
+}
+
+.absolute-div {
+    color: white;
+    position: absolute;
+    right: 0px;
+    top: 100px;
+    bottom: 75px;
+    background-color: #8f008f;
+    padding: 5px;
+}
+
+.fixed-div {
+    height: 100px;
+    color: white;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background-color: #04de04;
+    padding: 15px;
+}
+
+.relative-content-column {
+    background-color: #a9a9a9;
+    margin-left: 200px;
+}

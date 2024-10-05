@@ -1,0 +1,32 @@
+.table {
+    background-color: aqua;
+    border: green 2px solid;
+}
+
+.first {
+    float: left;
+    background-color: bisque;
+    height: 80px;
+    width: 300px;
+}
+
+@media (min-width: 700px) {
+    .content-column {
+        background-color: darkgray;
+        margin-left: 300px;
+    }
+}
+
+
+@media (max-width: 699px) {
+    .first {
+        width: 120px;
+    }
+    .content-column {
+        margin-top: 5em;
+        width: 360px;
+        background-color: darkgray;
+        clear: left;
+    }
+
+}
